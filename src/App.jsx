@@ -1,11 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Layout/Navbar";
+
 function App() {
   return (
-    <>
-      <div className="bg-purple-500">
-        <h1 className="text-xl">Hello, DaisyUI</h1>
-        <button className="btn">Hello daisyUI</button>
+    <BrowserRouter>
+      <div className="flex flex-col justify-between h-screen">
+        <Navbar title="Github Finder" />
+        <main>
+          <Routes>
+            <Route path="/" />
+          </Routes>
+        </main>
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 
