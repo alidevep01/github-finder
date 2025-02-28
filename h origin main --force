@@ -1,0 +1,100 @@
+[33mcommit fc1ea6520a9fdecd950c475fd799f918e33e77a7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Fri Feb 28 11:10:22 2025 +0530
+
+    Removed .env file from Git
+
+ .env | 2 [31m--[m
+ 1 file changed, 2 deletions(-)
+
+[33mcommit 1625198021ffd3fda5f4f4d1cba20aa8af1ecfa5[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Fri Feb 28 11:08:44 2025 +0530
+
+    added github token to .env
+
+ .env               | 2 [32m++[m
+ src/Pages/Home.jsx | 6 [32m+++++[m[31m-[m
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+[33mcommit c6da70cae9ba0f65ad6d459b7ead5914ad6d8056[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Wed Feb 26 13:53:05 2025 +0530
+
+    a
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 578a3294ad8122d473e16d4af6b14ca3ad609529[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Tue Feb 25 21:10:16 2025 +0530
+
+    a
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 63e827646cd0bcac2b60635c30f302afc04be4f4[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Mon Feb 24 18:50:58 2025 +0530
+
+    a
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit b1532d090b1888fa284d3004c9ad7c56a7ce5b25[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Sun Feb 23 15:51:38 2025 +0530
+
+    a
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit ddf7a12b4dad77db54e22382a7c433aa27817ed7[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Sat Feb 22 12:47:47 2025 +0530
+
+    created Home, about & notfound pages, setup notfound pages with content. added pages routes in App.js
+
+ src/App.jsx                      | 12 [32m++++++++++[m[31m--[m
+ src/Components/Layout/Footer.jsx | 23 [32m++++++++++++++++++++++[m
+ src/Pages/About.jsx              | 42 [32m++++++++++++++++++++++++++++++++++++++++[m
+ src/Pages/Home.jsx               |  7 [32m+++++++[m
+ src/Pages/NotFound.jsx           | 27 [32m++++++++++++++++++++++++++[m
+ 5 files changed, 109 insertions(+), 2 deletions(-)
+
+[33mcommit 3dbcc120c818b65f60e2d5a3a1682085e146b25a[m
+Author: Your Name <mohammadali0326@gmail.com>
+Date:   Sat Feb 22 11:45:22 2025 +0530
+
+    Created Nav component and styled using tailwind & daisy UI
+
+ package-lock.json                | 80 [32m+++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ package.json                     |  4 [32m+[m[31m-[m
+ src/App.jsx                      | 17 [32m++++++[m[31m---[m
+ src/Components/Layout/Navbar.jsx | 37 [32m+++++++++++++++++++[m
+ 4 files changed, 131 insertions(+), 7 deletions(-)
+
+[33mcommit c05f44a31149ba0b907ecac6fcfd95f16072d967[m
+Author: Mohammad Nandurbarwala <mohammdali0326@gmail.com>
+Date:   Sat Feb 22 10:09:02 2025 +0530
+
+    initialized git
+
+ .gitignore           |   24 [32m+[m
+ README.md            |    8 [32m+[m
+ eslint.config.js     |   38 [32m+[m
+ index.html           |   19 [32m+[m
+ package-lock.json    | 4915 [32m++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ package.json         |   33 [32m+[m
+ public/vite.svg      |    1 [32m+[m
+ src/App.jsx          |   12 [32m+[m
+ src/assets/react.svg |    1 [32m+[m
+ src/index.css        |    3 [32m+[m
+ src/main.jsx         |   10 [32m+[m
+ tailwind.config.js   |    0
+ vite.config.js       |    8 [32m+[m
+ 13 files changed, 5072 insertions(+)
